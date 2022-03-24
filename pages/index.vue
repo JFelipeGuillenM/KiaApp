@@ -3,8 +3,7 @@
     <HeaderPage />
     <CarList class="lista-autos"/>
     <div v-if="status === true">
-      <div class="fondo-modal"></div>
-      <IndexModal class="indexmodal"/>
+    <IndexModal class="indexmodal"/>
     </div>
     <FooterPage class="footer"/>
   </div>
@@ -43,7 +42,7 @@ export default {
   margin-top: 80px;
 }
 .indexmodal{
-  position: fixed;
+  position: absolute;
   top: 10%;
   left: 33%;
 }
