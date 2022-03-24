@@ -2,6 +2,7 @@
   <div>
     <HeaderPage />
     <div v-if="status === true">
+      <div class="fondo-modal"></div>
       <IndexModal class="indexmodal"/>
     </div>
     <CarList class="lista-autos"/>
@@ -42,13 +43,13 @@ export default {
   margin-top: 80px;
 }
 .indexmodal{
-  position: relative;
-  top: 0%;
+  position: fixed;
+  top: 10%;
   left: 33%;
 }
 .fondo-modal{
   background-color: rgb(5, 5, 5);
-  position: relative;
+  position: absolute;
   top: 0%;
   opacity: 0.4;
   height: 1300px;
