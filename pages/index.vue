@@ -48,7 +48,7 @@ export default {
 }
 .fondo-modal{
   background-color: rgb(5, 5, 5);
-  position: absolute;
+  position: relative;
   top: 0%;
   opacity: 0.4;
   height: 1300px;
