@@ -42,8 +42,8 @@ export default {
   margin-top: 80px;
 }
 .indexmodal{
-  position: absolute;
-  top: 10%;
+  position: relative;
+  top: 0%;
   left: 33%;
 }
 .fondo-modal{
