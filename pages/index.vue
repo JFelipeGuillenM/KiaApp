@@ -2,7 +2,6 @@
   <div>
     <HeaderPage />
     <div v-if="status === true">
-      <div class="fondo-modal"></div>
       <IndexModal class="indexmodal"/>
     </div>
     <CarList class="lista-autos"/>
@@ -46,6 +45,7 @@ export default {
   position: fixed;
   top: 10%;
   left: 33%;
+  box-shadow: 5px 4px 9px 1px rgba(0,0,0,0.87);
 }
 .fondo-modal{
   background-color: rgb(5, 5, 5);
