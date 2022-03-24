@@ -1,10 +1,10 @@
 <template>
   <div>
     <HeaderPage />
-    <CarList class="lista-autos"/>
     <div v-if="status === true">
-    <IndexModal class="indexmodal"/>
+      <IndexModal class="indexmodal"/>
     </div>
+    <CarList class="lista-autos"/>
     <FooterPage class="footer"/>
   </div>
 </template>
